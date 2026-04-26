@@ -1,0 +1,18 @@
+{
+  "flight_id": "RZG-TRAINING-001",
+  "departure_airport": "KGAI",
+  "destination_airport": "KJYO",
+  "departure_time": "2026-06-01T14:30:00-04:00",
+  "aircraft_type": "PA-28-181",
+  "weights": {
+    "pilot_lb": 175,
+    "front_passenger_lb": 150,
+    "rear_left_lb": 0,
+    "rear_right_lb": 0,
+    "baggage_lb": 35,
+    "fuel_gal": 42
+  },
+  "brief_radius_nm": 120,
+  "tfr_radius_nm": 80,
+  "auto_brief_offsets_min": [120, 60]
+}

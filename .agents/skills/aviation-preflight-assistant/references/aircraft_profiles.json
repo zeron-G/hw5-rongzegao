@@ -1,0 +1,112 @@
+{
+  "PA-28-181": {
+    "display_name": "Piper Archer II (PA-28-181)",
+    "weight_balance": {
+      "max_gross_lb": 2550,
+      "empty_weight_lb": 1662,
+      "empty_moment_lb_in": 146550,
+      "fuel_density_lb_per_gal": 6.0,
+      "max_fuel_gal": 50.0,
+      "arms_in": {
+        "pilot_front": 80.5,
+        "rear": 118.1,
+        "baggage": 142.8,
+        "fuel": 95.0
+      },
+      "cg_limits": [
+        {
+          "weight_lb": 1950,
+          "forward_in": 84.0,
+          "aft_in": 93.0
+        },
+        {
+          "weight_lb": 2550,
+          "forward_in": 87.0,
+          "aft_in": 93.5
+        }
+      ]
+    },
+    "performance": {
+      "crosswind_limit_kt": 17,
+      "headwind_adjust_ft_per_kt": -12,
+      "tailwind_adjust_ft_per_kt": 20,
+      "takeoff_ground_roll_ft": {
+        "pressure_alt_ft": [0, 2000, 4000, 6000, 8000],
+        "temp_c": [0, 20, 40],
+        "values": [
+          [865, 1015, 1175],
+          [960, 1130, 1315],
+          [1070, 1260, 1465],
+          [1200, 1415, 1640],
+          [1350, 1595, 1850]
+        ]
+      },
+      "landing_ground_roll_ft": {
+        "pressure_alt_ft": [0, 2000, 4000, 6000, 8000],
+        "temp_c": [0, 20, 40],
+        "values": [
+          [610, 675, 750],
+          [650, 730, 810],
+          [700, 785, 875],
+          [760, 855, 955],
+          [830, 935, 1045]
+        ]
+      }
+    }
+  },
+  "C172S": {
+    "display_name": "Cessna 172S",
+    "weight_balance": {
+      "max_gross_lb": 2550,
+      "empty_weight_lb": 1670,
+      "empty_moment_lb_in": 65200,
+      "fuel_density_lb_per_gal": 6.0,
+      "max_fuel_gal": 56.0,
+      "arms_in": {
+        "pilot_front": 37.0,
+        "rear": 73.0,
+        "baggage": 95.0,
+        "fuel": 48.0
+      },
+      "cg_limits": [
+        {
+          "weight_lb": 1500,
+          "forward_in": 35.0,
+          "aft_in": 47.3
+        },
+        {
+          "weight_lb": 2550,
+          "forward_in": 41.0,
+          "aft_in": 47.3
+        }
+      ]
+    },
+    "performance": {
+      "crosswind_limit_kt": 15,
+      "headwind_adjust_ft_per_kt": -10,
+      "tailwind_adjust_ft_per_kt": 20,
+      "takeoff_ground_roll_ft": {
+        "pressure_alt_ft": [0, 2000, 4000, 6000, 8000],
+        "temp_c": [0, 20, 40],
+        "values": [
+          [865, 995, 1140],
+          [950, 1095, 1260],
+          [1055, 1215, 1395],
+          [1175, 1360, 1565],
+          [1325, 1530, 1760]
+        ]
+      },
+      "landing_ground_roll_ft": {
+        "pressure_alt_ft": [0, 2000, 4000, 6000, 8000],
+        "temp_c": [0, 20, 40],
+        "values": [
+          [550, 605, 675],
+          [590, 650, 725],
+          [645, 710, 790],
+          [710, 785, 875],
+          [785, 870, 970]
+        ]
+      }
+    }
+  }
+}
