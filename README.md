@@ -1,7 +1,7 @@
 # Week 5 - Reusable AI Skill: Aviation Preflight Assistant
 
 ## Video demo
-- Walkthrough video (45-90s): https://youtu.be/REPLACE_WITH_YOUR_VIDEO_ID
+- Walkthrough video (45-90s): https://youtu.be/vmC_eKf8tN8
 
 ## What this skill does
 `aviation-preflight-assistant` is a narrow, reusable skill for GA preflight preparation.
